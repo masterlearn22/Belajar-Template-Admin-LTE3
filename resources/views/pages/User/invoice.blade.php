@@ -19,7 +19,7 @@
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-@include('layout.aside')
+@include('layout.sidebar')
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">

@@ -5,10 +5,10 @@
       <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
     </li>
     <li class="nav-item d-none d-sm-inline-block">
-      <a href="/pages/User/profile" class="nav-link">Profile</a>
+      <a href="/profile" class="nav-link">Profile</a>
     </li>
     <li class="nav-item d-none d-sm-inline-block">
-      <a href="/pages/User/contacts" class="nav-link">Contact</a>
+      <a href="/contacts" class="nav-link">Teman</a>
     </li>
   </ul>
 
@@ -46,10 +46,10 @@
         <a href="#" class="dropdown-item">
           <!-- Message Start -->
           <div class="media">
-            <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+            <img src="/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
             <div class="media-body">
               <h3 class="dropdown-item-title">
-                Brad Diesel
+                Monkey D. Lufyy
                 <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
               </h3>
               <p class="text-sm">Call me whenever you can...</p>
@@ -65,7 +65,7 @@
             <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
             <div class="media-body">
               <h3 class="dropdown-item-title">
-                John Pierce
+                Naruto Uzumaki
                 <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
               </h3>
               <p class="text-sm">I got your message bro</p>
@@ -81,7 +81,7 @@
             <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
             <div class="media-body">
               <h3 class="dropdown-item-title">
-                Nora Silvester
+                Gojo Satoru
                 <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
               </h3>
               <p class="text-sm">The subject goes here</p>
@@ -121,8 +121,8 @@
         <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
       </div>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+    <li class="nav-item menu-open">
+      <a class="nav-link active" data-widget="fullscreen" href="#" role="button">
         <i class="fas fa-expand-arrows-alt"></i>
       </a>
     </li>

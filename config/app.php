@@ -99,11 +99,14 @@ return [
 
     'key' => env('APP_KEY'),
 
+   
+
     'previous_keys' => [
         ...array_filter(
             explode(',', env('APP_PREVIOUS_KEYS', ''))
         ),
     ],
+   
 
     /*
     |--------------------------------------------------------------------------
@@ -117,6 +120,11 @@ return [
     | Supported drivers: "file", "cache"
     |
     */
+
+    // 'providers' => [
+    //     Illuminate\Filesystem\FilesystemServiceProvider::class,
+    //     Spatie\Permission\PermissionServiceProvider::class
+    //     ],
 
     'maintenance' => [
         'driver' => env('APP_MAINTENANCE_DRIVER', 'file'),

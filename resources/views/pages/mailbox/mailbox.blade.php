@@ -19,7 +19,7 @@
   <!-- Navbar -->
 @include('layout.navbar')
   <!-- /.navbar -->
-@include('layout.aside')
+@include('layout.sidebar')
   <!-- Main Sidebar Container -->
 
 

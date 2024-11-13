@@ -21,7 +21,7 @@
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-@include('layout.aside')
+@include('layout.sidebar')
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -76,64 +76,64 @@
                 </div>
                 <div>
                   <div class="filter-container p-0 row">
-                    <div class="filtr-item col-sm-2" data-category="1" data-sort="white sample">
-                      <a href="https://via.placeholder.com/1200/FFFFFF.png?text=1" data-toggle="lightbox" data-title="sample 1 - white">
-                        <img src="https://via.placeholder.com/300/FFFFFF?text=1" class="img-fluid mb-2" alt="white sample"/>
+                    <div class="image" data-category="1" data-sort="white sample">
+                      <a href="/public/dist/img/galeri/1" data-toggle="lightbox" data-title="sample 1 - white">
+                        <img src="/public/dist/img/galeri/1" class="img-fluid mb-2" alt="white sample"/>
                       </a>
                     </div>
                     <div class="filtr-item col-sm-2" data-category="2, 4" data-sort="black sample">
                       <a href="https://via.placeholder.com/1200/000000.png?text=2" data-toggle="lightbox" data-title="sample 2 - black">
-                        <img src="https://via.placeholder.com/300/000000?text=2" class="img-fluid mb-2" alt="black sample"/>
+                        <img src="/dist/img/galeri/2" class="img-fluid mb-2" alt="black sample"/>
                       </a>
                     </div>
                     <div class="filtr-item col-sm-2" data-category="3, 4" data-sort="red sample">
                       <a href="https://via.placeholder.com/1200/FF0000/FFFFFF.png?text=3" data-toggle="lightbox" data-title="sample 3 - red">
-                        <img src="https://via.placeholder.com/300/FF0000/FFFFFF?text=3" class="img-fluid mb-2" alt="red sample"/>
+                        <img src="/dist/img/galeri/3" class="img-fluid mb-2" alt="red sample"/>
                       </a>
                     </div>
                     <div class="filtr-item col-sm-2" data-category="3, 4" data-sort="red sample">
                       <a href="https://via.placeholder.com/1200/FF0000/FFFFFF.png?text=4" data-toggle="lightbox" data-title="sample 4 - red">
-                        <img src="https://via.placeholder.com/300/FF0000/FFFFFF?text=4" class="img-fluid mb-2" alt="red sample"/>
+                        <img src="/dist/img/galeri/4" class="img-fluid mb-2" alt="red sample"/>
                       </a>
                     </div>
                     <div class="filtr-item col-sm-2" data-category="2, 4" data-sort="black sample">
                       <a href="https://via.placeholder.com/1200/000000.png?text=5" data-toggle="lightbox" data-title="sample 5 - black">
-                        <img src="https://via.placeholder.com/300/000000?text=5" class="img-fluid mb-2" alt="black sample"/>
+                        <img src="/dist/img/galeri/5" class="img-fluid mb-2" alt="black sample"/>
                       </a>
                     </div>
                     <div class="filtr-item col-sm-2" data-category="1" data-sort="white sample">
                       <a href="https://via.placeholder.com/1200/FFFFFF.png?text=6" data-toggle="lightbox" data-title="sample 6 - white">
-                        <img src="https://via.placeholder.com/300/FFFFFF?text=6" class="img-fluid mb-2" alt="white sample"/>
+                        <img src="/dist/img/galeri/6" class="img-fluid mb-2" alt="white sample"/>
                       </a>
                     </div>
                     <div class="filtr-item col-sm-2" data-category="1" data-sort="white sample">
                       <a href="https://via.placeholder.com/1200/FFFFFF.png?text=7" data-toggle="lightbox" data-title="sample 7 - white">
-                        <img src="https://via.placeholder.com/300/FFFFFF?text=7" class="img-fluid mb-2" alt="white sample"/>
+                        <img src="/dist/img/galeri/7" class="img-fluid mb-2" alt="white sample"/>
                       </a>
                     </div>
                     <div class="filtr-item col-sm-2" data-category="2, 4" data-sort="black sample">
                       <a href="https://via.placeholder.com/1200/000000.png?text=8" data-toggle="lightbox" data-title="sample 8 - black">
-                        <img src="https://via.placeholder.com/300/000000?text=8" class="img-fluid mb-2" alt="black sample"/>
+                        <img src="/dist/img/galeri/8" class="img-fluid mb-2" alt="black sample"/>
                       </a>
                     </div>
                     <div class="filtr-item col-sm-2" data-category="3, 4" data-sort="red sample">
                       <a href="https://via.placeholder.com/1200/FF0000/FFFFFF.png?text=9" data-toggle="lightbox" data-title="sample 9 - red">
-                        <img src="https://via.placeholder.com/300/FF0000/FFFFFF?text=9" class="img-fluid mb-2" alt="red sample"/>
+                        <img src="/dist/img/galeri/9" class="img-fluid mb-2" alt="red sample"/>
                       </a>
                     </div>
                     <div class="filtr-item col-sm-2" data-category="1" data-sort="white sample">
                       <a href="https://via.placeholder.com/1200/FFFFFF.png?text=10" data-toggle="lightbox" data-title="sample 10 - white">
-                        <img src="https://via.placeholder.com/300/FFFFFF?text=10" class="img-fluid mb-2" alt="white sample"/>
+                        <img src="/dist/img/galeri/10" class="img-fluid mb-2" alt="white sample"/>
                       </a>
                     </div>
                     <div class="filtr-item col-sm-2" data-category="1" data-sort="white sample">
                       <a href="https://via.placeholder.com/1200/FFFFFF.png?text=11" data-toggle="lightbox" data-title="sample 11 - white">
-                        <img src="https://via.placeholder.com/300/FFFFFF?text=11" class="img-fluid mb-2" alt="white sample"/>
+                        <img src="/dist/img/galeri/11" class="img-fluid mb-2" alt="white sample"/>
                       </a>
                     </div>
                     <div class="filtr-item col-sm-2" data-category="2, 4" data-sort="black sample">
                       <a href="https://via.placeholder.com/1200/000000.png?text=12" data-toggle="lightbox" data-title="sample 12 - black">
-                        <img src="https://via.placeholder.com/300/000000?text=12" class="img-fluid mb-2" alt="black sample"/>
+                        <img src="/dist/img/galeri/12" class="img-fluid mb-2" alt="black sample"/>
                       </a>
                     </div>
                   </div>
@@ -205,8 +205,8 @@
                     </a>
                   </div>
                   <div class="col-sm-2">
-                    <a href="https://via.placeholder.com/1200/000000.png?text=12" data-toggle="lightbox" data-title="sample 12 - black" data-gallery="gallery">
-                      <img src="https://via.placeholder.com/300/000000?text=12" class="img-fluid mb-2" alt="black sample"/>
+                    <a href="/dist/img/galeri/12" data-toggle="lightbox" data-title="sample 12 - black" data-gallery="gallery">
+                      <img src="/dist/img/galeri/12" class="img-fluid mb-2" alt="black sample"/>
                     </a>
                   </div>
                 </div>
